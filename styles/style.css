@@ -121,6 +121,21 @@ main{
     text-align: center;
     padding: 30px;
 }
+/* Sponsors Section styles*/
+.sponsors{
+    text-align: center;
+}
+.sponsors-image-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    align-items: center;
+}
+.sponsors-image-container img{
+    width: 165px;
+}
+
 /* Responsive Media */
 /* For mobile devices */
 @media screen and (max-width:576px) {
@@ -130,12 +145,22 @@ main{
     nav , .teams-container{
         flex-direction: column;
     }
+    .facts-card-container{
+        flex-direction: column;
+        
+    }
     .teams-img-container{
         grid-template-columns: 1fr;
     }
-    .temas-content{
+    .temas-content, .facts-card-container{
         padding-right: 20px ;
         padding-left: 20px;
+    }
+    .facts-card-container{
+        gap: 10px;
+    }
+    .sponsors-image-container{
+        flex-direction: column;
     }
 }
 /* For Medium Devices-Media */
