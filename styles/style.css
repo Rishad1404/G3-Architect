@@ -89,11 +89,37 @@ main{
     color: var(--Dark-01, #131313);
     font-family: Work Sans;
     font-weight: 700;
+    font-size: 45px;
 }
 .three{
     color: #FF900E;
     font-family: Work Sans;
     font-weight: 700;
+}
+
+/* Facts Section */
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card-container .card-stats{
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.facts-card-container .card-title{
+    font-weight: 600;
+    color: #727272;
+    font-size: 1.25rem;
+    margin-top: 5px;
+}
+
+.facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
 }
 /* Responsive Media */
 /* For mobile devices */
